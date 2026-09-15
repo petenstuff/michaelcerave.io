@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael CeraVe ($CERAVE) - The Smoothest Token on Solana</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        ceraveBlue: '#00529b',
+                        ceraveLightBlue: '#00A3E0',
+                        ceraveBg: '#F4F9FC',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glow-effect {
+            box-shadow: 0 0 25px rgba(0, 163, 224, 0.4);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #00529b 0%, #00A3E0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-ceraveBg text-gray-800 font-sans antialiased selection:bg-ceraveLightBlue selection:text-white">
+
+    <!-- Header / Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-ceraveBlue text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md">
+                    MC
+                </div>
+                <span class="font-extrabold text-xl tracking-tight text-ceraveBlue">Michael <span class="text-ceraveLightBlue">CeraVe</span></span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 font-semibold text-gray-600">
+                <a href="#about" class="hover:text-ceraveBlue transition">About</a>
+                <a href="#tokenomics" class="hover:text-ceraveBlue transition">Tokenomics</a>
+                <a href="#how-to-buy" class="hover:text-ceraveBlue transition">How to Buy</a>
+                <a href="#roadmap" class="hover:text-ceraveBlue transition">Roadmap</a>
+            </div>
+
+            <a href="#how-to-buy" class="bg-ceraveBlue hover:bg-ceraveLightBlue text-white font-bold px-6 py-2.5 rounded-full shadow-lg transition duration-300 transform hover:-translate-y-0.5">
+                Buy $CERAVE
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-36 pb-20 px-6 max-w-7xl mx-auto text-center relative overflow-hidden">
+        <div class="inline-block bg-blue-100 text-ceraveBlue font-semibold text-sm px-4 py-1.5 rounded-full mb-6 border border-blue-200">
+            🧴 Developed with Top Crypto Dermatologists
+        </div>
+        
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
+            The Hydrating Token For <br> <span class="text-gradient">Ultra-Smooth Gains</span>
+        </h1>
+        
+        <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed">
+            Actor? Skincare Mastermind? Memecoin Legend? <strong>Michael CeraVe ($CERAVE)</strong> is here to repair your financial barrier with 3 essential ceramides and 100% decentralized power.
+        </p>
+
+        <!-- CA Box -->
+        <div class="max-w-xl mx-auto bg-white p-3 rounded-2xl shadow-xl border border-gray-100 flex items-center justify-between mb-8">
+            <div class="truncate text-sm md:text-base font-mono text-gray-500 pl-3" id="contract-address">
+                0xCERAVE...PumpDotFunSolanaAddressHere
+            </div>
+            <button onclick="copyCA()" class="bg-ceraveBlue hover:bg-ceraveLightBlue text-white px-5 py-2.5 rounded-xl font-bold text-sm transition flex items-center space-x-2 shrink-0">
+                <i class="fa-regular font-normal fa-copy"></i>
+                <span id="copy-btn-text">Copy CA</span>
+            </button>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="https://raydium.io" target="_blank" class="bg-ceraveBlue text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-ceraveLightBlue transition shadow-lg glow-effect">
+                Buy $CERAVE on Raydium
+            </a>
+            <a href="https://dexscreener.com" target="_blank" class="bg-white text-ceraveBlue border border-ceraveBlue/20 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-blue-50 transition shadow-sm">
+                View Chart
+            </a>
+        </div>
+    </section>
+
+    <!-- Memes / About Section -->
+    <section id="about" class="py-20 bg-white border-y border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="relative">
+                <div class="w-full h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+                    <img src="" alt="Michael Cera CeraVe" class="w-full h-full object-cover">
+                </div>
+                <div class="absolute -bottom-6 -right-6 bg-yellow-400 text-gray-900 font-extrabold px-6 py-3 rounded-2xl shadow-lg transform rotate-3">
+                    Dermatologist Approved!
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-4xl font-extrabold mb-6">He Didn't Just Make It... <br><span class="text-ceraveLightBlue">He IS It.</span></h2>
+                <p class="text-gray-600 mb-4 text-lg">
+                    Rumors said he created the lotion. Others said it was just a name coincidence. But deep down in Web3, we know the truth: <strong>$CERAVE</strong> was engineered for maximum skin smoothness and portfolio growth.
+                </p>
+                <ul class="space-y-3 font-semibold text-gray-700">
+                    <li class="flex items-center space-x-3">
+                        <i class="fa-solid fa-check text-ceraveLightBlue"></i>
+                        <span>Non-Comedogenic Liquidity (No Rug Pulls)</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <i class="fa-solid fa-check text-ceraveLightBlue"></i>
+                        <span>Restores Your Portfolio's Natural Barrier</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <i class="fa-solid fa-check text-ceraveLightBlue"></i>
+                        <span>100% Pure Unscented Memetic Energy</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-4">$CERAVE Formula & Tokenomics</h2>
+            <p class="text-gray-600">Pure ingredients. No fillers. 0% tax.</p>
+        </div>
+
+        <div class="grid md:grid-cols-4 gap-8">
+            <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 text-center hover:scale-105 transition">
+                <div class="text-ceraveLightBlue text-3xl mb-2 font-black">1 Billion</div>
+                <div class="text-gray-500 font-bold uppercase tracking-wider text-xs">Total Supply</div>
+            </div>
+            <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 text-center hover:scale-105 transition">
+                <div class="text-ceraveLightBlue text-3xl mb-2 font-black">0% / 0%</div>
+                <div class="text-gray-500 font-bold uppercase tracking-wider text-xs">Buy/Sell Tax</div>
+            </div>
+            <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 text-center hover:scale-105 transition">
+                <div class="text-ceraveLightBlue text-3xl mb-2 font-black">100% Burned</div>
+                <div class="text-gray-500 font-bold uppercase tracking-wider text-xs">LP Tokens</div>
+            </div>
+            <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 text-center hover:scale-105 transition">
+                <div class="text-ceraveLightBlue text-3xl mb-2 font-black">Revoked</div>
+                <div class="text-gray-500 font-bold uppercase tracking-wider text-xs">Mint Authority</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Buy Section -->
+    <section id="how-to-buy" class="py-20 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold mb-4">How to Apply $CERAVE</h2>
+                <p class="text-gray-600">Follow these 4 easy steps to smooth out your wallet.</p>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="p-6 bg-ceraveBg rounded-2xl">
+                    <div class="w-10 h-10 bg-ceraveBlue text-white rounded-xl font-bold flex items-center justify-center mb-4">1</div>
+                    <h3 class="font-bold text-xl mb-2">Create Wallet</h3>
+                    <p class="text-sm text-gray-600">Download Phantom or your favorite Solana wallet from the app store.</p>
+                </div>
+
+                <div class="p-6 bg-ceraveBg rounded-2xl">
+                    <div class="w-10 h-10 bg-ceraveBlue text-white rounded-xl font-bold flex items-center justify-center mb-4">2</div>
+                    <h3 class="font-bold text-xl mb-2">Get Some SOL</h3>
+                    <p class="text-sm text-gray-600">Buy SOL on Coinbase, Binance, or Kraken and transfer it to your wallet.</p>
+                </div>
+
+                <div class="p-6 bg-ceraveBg rounded-2xl">
+                    <div class="w-10 h-10 bg-ceraveBlue text-white rounded-xl font-bold flex items-center justify-center mb-4">3</div>
+                    <h3 class="font-bold text-xl mb-2">Connect to DEX</h3>
+                    <p class="text-sm text-gray-600">Head over to Raydium or Jupiter and connect your Phantom wallet.</p>
+                </div>
+
+                <div class="p-6 bg-ceraveBg rounded-2xl">
+                    <div class="w-10 h-10 bg-ceraveBlue text-white rounded-xl font-bold flex items-center justify-center mb-4">4</div>
+                    <h3 class="font-bold text-xl mb-2">Swap for $CERAVE</h3>
+                    <p class="text-sm text-gray-600">Paste our contract address, select the amount, and click swap!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section id="roadmap" class="py-20 max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-extrabold mb-4">Skincare Routine (Roadmap)</h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm relative">
+                <span class="text-xs font-bold text-ceraveLightBlue uppercase tracking-widest">Phase 1</span>
+                <h3 class="text-2xl font-bold mt-2 mb-4">Cleansing</h3>
+                <ul class="text-gray-600 space-y-2 text-sm">
+                    <li>• Stealth Launch on Pump.fun</li>
+                    <li>• Community Telegram & Twitter Creation</li>
+                    <li>• Meme Distribution Campaign</li>
+                    <li>• DexScreener & DEXTools Fast Track</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm relative">
+                <span class="text-xs font-bold text-ceraveLightBlue uppercase tracking-widest">Phase 2</span>
+                <h3 class="text-2xl font-bold mt-2 mb-4">Moisturizing</h3>
+                <ul class="text-gray-600 space-y-2 text-sm">
+                    <li>• CoinGecko & CoinMarketCap Listings</li>
+                    <li>• Influencer & TikTok Skincare Memes</li>
+                    <li>• 5,000+ Active Holders</li>
+                    <li>• Trending on X / Twitter</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm relative">
+                <span class="text-xs font-bold text-ceraveLightBlue uppercase tracking-widest">Phase 3</span>
+                <h3 class="text-2xl font-bold mt-2 mb-4">Barrier Repair</h3>
+                <ul class="text-gray-600 space-y-2 text-sm">
+                    <li>• Tier 2 Centralized Exchange Listings</li>
+                    <li>• Real-Life CeraVe PR Stunts</li>
+                    <li>• 50,000+ Holders</li>
+                    <li>• Send $CERAVE to the Moon 🚀</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Social Links -->
+    <footer class="bg-ceraveBlue text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="text-2xl font-bold mb-6">Join the Smoothest Community</h3>
+            <div class="flex justify-center space-x-6 mb-8 text-2xl">
+                <a href="#" class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#" class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition"><i class="fa-solid fa-chart-line"></i></a>
+            </div>
+            <p class="text-sm text-blue-200 max-w-xl mx-auto">
+                $CERAVE is a meme coin created for entertainment purposes only and is not officially affiliated with Michael Cera, CeraVe, or L'Oréal. Cryptocurrency trading carries risk.
+            </p>
+            <div class="mt-8 text-xs text-blue-300">
+                © 2026 Michael CeraVe ($CERAVE). All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copy Address Script -->
+    <script>
+        function copyCA() {
+            const caText = document.getElementById("contract-address").innerText.trim();
+            navigator.clipboard.writeText(caText);
+            
+            const btnText = document.getElementById("copy-btn-text");
+            btnText.innerText = "Copied!";
+            setTimeout(() => {
+                btnText.innerText = "Copy CA";
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
